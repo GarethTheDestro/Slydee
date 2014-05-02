@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Slydee Menu</title>
+		<meta name="description" content="Slydee Menu">
+		<meta name="author" content="Gary Wilkerson">
+		<link type="text/css" rel="stylesheet" href="css/slydee.css" />
+		<script src="js/jquery-1.11.0.min.js"></script>
+	</head>
+
+	<body>
+
+		<div id="panel">
+			<ul>
+				<li><a href="#">INSERT</a></li>
+				<li><a href="#">YOUR</a></li>
+				<li><a href="#">MENU</a></li>
+				<li><a href="#">ITEMS</a></li>
+				<li><a href="#">HERE</a></li>
+			</ul>
+		</div>
+
+		<div class="wrap">
+			<h1>Slydee</h1>
+			<h2>By Gary Wilkerson</h2>
+			<h3><a href="http://www.gary-wilkerson.com">www.slydee.gary-wilkerson.com</a></h3>
+			<div id="button">Push Me</div>
+		</div>
+
+		<script src="js/slydee.jquery.js"></script>
+
+			<script>
+
+				$('#button').slydee({
+					'push' : 'true'
+				});
+
+			</script>
+	</body>
+</html>
